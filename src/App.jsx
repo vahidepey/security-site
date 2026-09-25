@@ -10,10 +10,10 @@ import'./App.css';
 function App(){
 
   return (
-  <BrowserRouter>
+  <BrowserRouter basename='/security-site' >
   <Navbar/>
   <Routes>
-    <Route path='/security-site/' element= {<Home/>}/>
+    <Route path='/' element= {<Home/>}/>
      <Route path='/home' element= {<Home/>}/>
     <Route path='/services' element={<Services/>}/>
     <Route path='/projects' element={<Projects/>}/>
