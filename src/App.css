@@ -677,7 +677,7 @@ service-card,
 .floating-whatsapp {
   position: fixed;
   right: 25px;
-  bottom: 100px;
+  bottom: 25px;
   width: 55px;
   height: 55px;
   display: flex;

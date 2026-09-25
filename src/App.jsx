@@ -13,14 +13,15 @@ function App(){
   <BrowserRouter>
   <Navbar/>
   <Routes>
-    <Route path='/' element= {<Home/>}/>
+    <Route path='/security-site/' element= {<Home/>}/>
      <Route path='/home' element= {<Home/>}/>
     <Route path='/services' element={<Services/>}/>
     <Route path='/projects' element={<Projects/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element= {<Contact/>}/>
       </Routes>
-      <div style={{ height:'auto',
+      <div style={{ height:'auto'
+
 
   }}></div>
 
