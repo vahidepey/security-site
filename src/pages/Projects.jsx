@@ -1,6 +1,6 @@
 import cctvImage from '../assets/uu88.jpg'
 import networkImage from '../assets/u55.jpg'
-import securityImageu from '../assets/u22.jpg'
+import securityImage from '../assets/u22.jpg'
 import { Link } from 'react-router-dom'
 
 function Projects({showMore=false}){
